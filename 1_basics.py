@@ -58,6 +58,8 @@ values = ['31', '28', '31']
 
 bars = plt.bar(labels, values)
 
+# Set a pattern for the columns
+
 bars[0].set_hatch('/')
 bars[1].set_hatch('O')
 
